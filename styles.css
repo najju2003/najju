@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Recipe Book</title>
+    <link rel="stylesheet" href="styles.csss">
+</head>
+<body>
+    <header>
+        <h1>Online Recipe Book</h1>
+        <nav>
+            <ul>
+                <li><a href="#breakfast">Breakfast</a></li>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#dinner">Dinner</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Breakfast Section -->
+        <section id="breakfast">
+            <h2>Breakfast Recipes</h2>
+            <div class="recipe">
+                <img src="pancakes.jpg" alt="Pancakes">
+                <h3>Pancakes</h3>
+                <p>Fluffy pancakes made from scratch. <a href="pancakes.html">View Recipe</a></p>
+            </div>
+        </section>
+
+        <!-- Lunch Section -->
+        <section id="lunch">
+            <h2>Lunch Recipes</h2>
+            <div class="recipe">
+                <img src="pasta.jpg" alt="Creamy Pasta">
+                <h3>Creamy Pasta</h3>
+                <p>Delicious pasta in a creamy sauce. <a href="pasta.html">View Recipe</a></p>
+            </div>
+        </section>
+
+        <!-- Dinner Section -->
+        <section id="dinner">
+            <h2>Dinner Recipes</h2>
+            <div class="recipe">
+                <img src="pizza.jpg" alt="Pizza">
+                <h3>Homemade Pizza</h3>
+                <p>Perfectly baked pizza with fresh toppings. <a href="pizza.html">View Recipe</a></p>
+            </div>
+        </section>
+
+        <!-- Desserts Section -->
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <div class="recipe">
+                <img src="cake.jpg" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Rich and moist chocolate cake. <a href="cake.html">View Recipe</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Recipe Book. All rights reserved.</p>
+    </footer>
+</body>
+</html>
